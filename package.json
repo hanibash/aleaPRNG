@@ -1,0 +1,25 @@
+{
+  "name": "aleaprng",
+  "version": "1.0.0",
+  "description": "Fast PRNG by Johannes Baagøe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanibash/aleaPRNG.git"
+  },
+  "keywords": [
+    "pseudo",
+    "random",
+    "number",
+    "generator"
+  ],
+  "author": "hanibash",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/hanibash/aleaPRNG/issues"
+  },
+  "homepage": "https://github.com/hanibash/aleaPRNG#readme"
+}

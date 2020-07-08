@@ -1,5 +1,7 @@
-# aleaPRNG
+# alea
 Alea is a pseudo-random number generator (PRNG) created by Johannes Baagøe, released in 2010. It implements his variation on Marsaglia's Multiply-with-carry theme, adapted to javascript's quaint notion of numbers: the carries are exactly the integer parts of Numbers with exactly 32 bits of fractional part.
+
+Republished for NPM [(original repo)](https://github.com/macmcmeans/aleaPRNG)
 
 <br>&nbsp;<br>
 Version 1.1<br>
@@ -21,12 +23,13 @@ Use this to quickly generate random numbers with good statistical properties. NO
 ## Example usage:
 
 ```
+const alea = require('aleaprng')
 // return an instance of the generator initialized internally with Window.crypto
-> myRandomNumbers = aleaPRNG();
+> myRandomNumbers = alea();
 
 
 // return an instance of the generator initialized with specified seed
-> myRandomNumbers = aleaPRNG( 'my', '3', 'seeds' );
+> myRandomNumbers = alea( 'my', '3', 'seeds' );
 
 
 // return a 32-bit fraction in the range [0, 1]
