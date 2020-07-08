@@ -180,4 +180,4 @@ function alea() {
     })( Array.prototype.slice.call( arguments ) );
 };
 
-module.exports = { alea }
+module.exports = alea
